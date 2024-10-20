@@ -1,3 +1,4 @@
+package DAY2;
 // WAP to find the Sum of first N natural numbers
 import java.util.Scanner;
 public class lec4 {
@@ -9,15 +10,5 @@ public class lec4 {
             sum=sum+i;
         }
         System.out.println(sum);
-
-
-
-
-
-    }
-
-
-
-    
-    
+    }   
 }
