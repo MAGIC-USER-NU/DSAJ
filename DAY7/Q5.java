@@ -1,8 +1,9 @@
-public class Q4 {
+package DAY7;
+public class Q5 {
     public static int[] NGER(int[] arr){
         int[] Nger =new int[arr.length];
         int ME=0;
-        for(int i=0;i<=arr.length-1;i++){
+        for(int i=arr.length-1;i>=0;i--){
             Nger[i]=ME;
             ME=Math.max(ME,arr[i]);
 

@@ -1,3 +1,4 @@
+package DAY7;
 public class Q1 {
     public static void rotateusingindex(int[] arr,int k){
         int[] temp =new int[arr.length];

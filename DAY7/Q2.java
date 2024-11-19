@@ -1,3 +1,4 @@
+package DAY7;
 public class Q2 {
     public static void reverse(int[] arr){
         int[] x =new int[arr.length];
@@ -9,10 +10,7 @@ public class Q2 {
             arr[i]=x[i];
         }
     }
-
-
-
-
+    
     public static void rotateindex(int[] arr,int k){
         int[] x =new int[arr.length];
 
@@ -31,7 +29,7 @@ public class Q2 {
         for(int i:arr)
             System.out.print(i+" ");
     }
-    
+
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6};
         int k=2;
